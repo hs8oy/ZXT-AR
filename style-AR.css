@@ -308,6 +308,47 @@ nav ul li a:hover {
 
 }
 
+.information{
+    background: #fff;
+    color: rgb(0, 0, 0);
+    padding: 190px 0;
+}
+
+.information .title{
+    padding-top:100px;
+    padding-bottom:10px ;
+    margin-bottom: 20px;
+}
+.information .di{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.information div img{
+    width: 300px;
+    margin: 2px 20px;
+}
+.information .bt{
+    margin: 20px 0;
+    
+}
+.information .bt a{
+    color: #fff;
+    padding: 10px 20px;
+    border:2px solid #cc00ff;
+    margin: 0 100px;
+    background: #2e2e2e;
+    transition: 0.5s ease;
+}
+.information .bt a:hover{
+    background: #cc00ff;
+    text-shadow: 2px 1px 4px black;
+    
+}
+
+
+
 footer {
     background: #2e2e2e;
     color: #fff;
@@ -405,6 +446,26 @@ footer div a:hover {
 
 }
 
+@media only screen and (max-width:700px) {
+
+    .information .di{
+        margin: 20px 0;
+        display: block;
+        text-align: center;
+    }
+
+     .information .di img{
+        width: 200px;
+     }
+     .information .di p{
+        margin: 10px 20px;
+     }
+    .information .bt{
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
 @media only screen and (max-width:620px) {
     .title-body {
         padding-right: 50px;
@@ -417,6 +478,11 @@ footer div a:hover {
 
     .btn-body {
         font-size: 16px;
+    }
+
+    .information div img{
+        width: 100px;
+        margin: 0 100px;
     }
 
 
